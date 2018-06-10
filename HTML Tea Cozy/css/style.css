@@ -1,0 +1,197 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo  {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+nav span {
+  padding: 10px;
+}
+
+span a {
+  color: seashell;
+}
+
+#mission {
+  display: flex;
+  top: 62px;
+  justify-content: center;
+  background-image: url(../css/images/background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.content {
+  background-color: black;
+  width: 100%;
+  align-content: center;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h2 {
+  margin: 10px 0 20px 0;
+}
+
+.content h4 {
+  margin-top: 0px;
+}
+
+#month {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 114px;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.teacontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacontent h4 {
+  margin: 10px 0 20px 0;
+}
+
+.teacontent h4 {
+  margin-top: 0px;
+}
+
+.steeping {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.steeping img {
+  height: 200px;
+  width: 300px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#locations {
+  display: flex;
+  top: 135px;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../css/images/locations.jpg);
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+}
+ .spots {
+   padding: 50px 0px 0px 0px;
+ }
+
+ #stores {
+   display: inline-flex;
+   justify-content: space-around;
+   top: -10px;
+   position: relative;
+ }
+
+ .locbox {
+   display: flex;
+   height: 280px;
+   width: 300px;
+   background-color: black;
+   opacity: 1;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 20px;
+   margin-left: 20px;
+   padding-top: -5px;
+   justify-content: space-around;
+   align-content: space-around;
+ }
+
+ .locbox h3 {
+   margin: 5px 0px 0px 0px;
+ }
+
+ .locbox span {
+   padding: 0px 0px 15px 0px;
+   font-weight: normal;
+ }
+
+footer {
+  display: flex;
+  position: relative;
+  top: 135px;
+  height: 275px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactinfo {
+  margin-top: -15px;
+  font-weight: normal;
+}
+
+.contactname {
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
+}
